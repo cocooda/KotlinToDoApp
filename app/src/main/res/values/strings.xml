@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ToDoApp</string>
+    <string name="add_task_title">Add New Task</string>
+    <string name="add_task_subtitle">Fill in the task information to add</string>
+    <string name="task_title_label">Task Title:</string>
+    <string name="task_title_hint">Enter task title</string>
+    <string name="priority_label">Priority:</string>
+    <string name="due_date_label">Due Date (optinal):</string>
+    <string name="select_date_button">Select Date</string>
+    <string name="no_due_date">No due date</string>
+    <string name="save_task_button">Save Task</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="add_task">Add Task</string>
+    <string name="update_task">Update Task</string>
+    <string name="due_no_date">No due date</string>
+    <string name="due_label">Due: %1$s</string>
+    <string name="please_enter_task_title">Please enter a task title</string>
+    <string name="task_added">Task added</string>
+    <string name="task_updated">Task updated</string>
+    <string name="task_not_found">Task not found</string>
+    <string name="list_of_tasks">List of tasks</string>
+    <string name="add_task_button">Adding new task</string>
+    <string name="search_your_task">Search your task</string>
+    <string name="low">Low</string>
+    <string name="medium">Medium</string>
+    <string name="high">High</string>
+    <string-array name="priority_array">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+
+</resources>

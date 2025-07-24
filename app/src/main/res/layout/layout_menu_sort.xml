@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingVertical="@dimen/_10sdp"
+    android:background="@color/white"
+    android:backgroundTint="@color/white"
+    android:clickable="true"
+    android:focusable="true"
+    android:elevation="@dimen/_10sdp"
+    android:paddingHorizontal="@dimen/_6sdp"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/lnAZ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/_6ssp"
+        android:paddingEnd="@dimen/_10ssp"
+        android:paddingVertical="@dimen/_4sdp"
+        android:gravity="center"
+        android:backgroundTint="@color/black"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="@dimen/_6sdp"
+            android:text="A - Z"
+            android:textSize="@dimen/_14ssp"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnZA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/_6ssp"
+        android:paddingEnd="@dimen/_10ssp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:paddingVertical="@dimen/_4sdp"
+        android:gravity="center"
+        android:backgroundTint="@color/black"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="@dimen/_6sdp"
+            android:text="Z - A"
+            android:textSize="@dimen/_14ssp"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>
